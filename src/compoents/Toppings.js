@@ -19,7 +19,7 @@ class Toppings extends React.Component {
         fetch('pizzas.json')
             .then(response => response.json())
             .then(rawDataFromAPI_Pizzas => {
-                console.log('Data from Api', rawDataFromAPI_Pizzas);
+                //console.log('Data from Api', rawDataFromAPI_Pizzas);
 
                 // rawDataFromAPI_Pizzas = array of PIZZAS
                 let ObjectLiteral_Result = {
@@ -54,7 +54,7 @@ class Toppings extends React.Component {
                     }
                 });
 
-                console.log("ObjectLiteral_Result", ObjectLiteral_Result);
+                //console.log("ObjectLiteral_Result", ObjectLiteral_Result);
 
                 // create result array from result dictionary
                 let resultArray = [];
@@ -118,12 +118,12 @@ class Toppings extends React.Component {
                     {this.state.resultArray.map((item, index) => {
 
                         return (
-                            <Row>
+                            <Row key={index}>
                                 <Col sm="1" md="1" className="containerMenuUI_col">
-                                    <span>{index + 1} &nbsp; </span>
+                                    <span>{index + 1}</span>
                                 </Col>
                                 <Col sm="7" md="7" className="containerMenuUI_col">
-                                    <span> {item["toppingCombination"]}</span>
+                                    <span className="breakWord"> {item["toppingCombination"]}</span>
                                 </Col>
                                 <Col sm="4" md="4" className="containerMenuUI_col">
                                     <span>{item["occurrenceCount"]}</span>
