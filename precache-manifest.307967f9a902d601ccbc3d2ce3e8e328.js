@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb71fe1db5420b3fdd7b6040aa77ad4e",
+    "revision": "ce4a6058d630f024c7ae086caa47ecfb",
     "url": "/restaurant-pizzas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restaurant-pizzas/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "a7b72d335feb9e65c140",
-    "url": "/restaurant-pizzas/static/css/main.2429ae83.chunk.css"
+    "revision": "4ebe9af3b2cf95ba849c",
+    "url": "/restaurant-pizzas/static/css/main.5c1fa752.chunk.css"
   },
   {
     "revision": "df5fbccbba541faea548",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restaurant-pizzas/static/js/2.1f5bac94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7b72d335feb9e65c140",
-    "url": "/restaurant-pizzas/static/js/main.5137b669.chunk.js"
+    "revision": "4ebe9af3b2cf95ba849c",
+    "url": "/restaurant-pizzas/static/js/main.950c819a.chunk.js"
   },
   {
     "revision": "b022638827cce93768af",
